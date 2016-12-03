@@ -13,12 +13,13 @@ import seed from './seed';
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" seed={seed} component={App}>
-      <IndexRoute component={Home} />
+      <IndexRoute content={seed.views.home.content} component={Home} />
       {
-        seed.views.map((v,i) => {
-          const comp = require(`./${v.component}.jsx`).default;
+        Object.keys(seed.views).map((v,i) => {
+          const view = seed.views[v],
+                comp = require(`./${view.component}.jsx`).default;
           return(
-            <Route key={i} path={v.name} component={comp} />
+            <Route content={view.content} key={i} path={view.name} component={comp} />
           )
         })
       }

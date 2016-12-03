@@ -9,7 +9,8 @@ class Solo extends Component {
         {
           content.embeds.map((e,i) => {
             return(
-              <span className="block embed"
+              <span key={i}
+                    className="block embed"
                     dangerouslySetInnerHTML={{__html: e}}>
               </span>
             )

@@ -6,7 +6,9 @@ class Home extends Component {
     return(
       <div id="Home">
         <span className="img-cont hero">
-          <img src={content.hero_url} />
+          <img src={content.hero.img_url}
+               alt={content.hero.img_alt}
+               title={content.hero.img_tit} />
         </span>
         <span id="bio">
           <p dangerouslySetInnerHTML={

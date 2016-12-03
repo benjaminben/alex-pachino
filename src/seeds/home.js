@@ -3,7 +3,11 @@ const view = {
   name : 'home',
   component : 'Home',
   content : {
-    hero_url : '/assets/wurli.jpg',
+    hero : {
+      img_url : '/assets/wurli.jpg',
+      img_alt : 'Alex Pachino',
+      img_tit : 'Alex Pachino, Wurlitzer',
+    },
     bio : `My name is Jonas
            I'm carrying the wheel
            Thanks for all you've shown us

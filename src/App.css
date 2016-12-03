@@ -184,6 +184,19 @@ footer .link .icon {
 }
 
 
+#Solo {
+  padding-bottom: 40px;
+}
+#Solo .embed {
+  padding: 2em 1em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+#Solo .embed iframe {
+  width: 100%;
+}
+
+
 
 @font-face {
   font-family: 'Gotham';

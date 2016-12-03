@@ -1,4 +1,4 @@
-html, body {
+html, body, #root {
   height: 100%;
 }
 
@@ -10,7 +10,7 @@ body {
 .App {
   position: relative;
   min-height: 100%;
-  padding-bottom: 80px;
+  /*padding-bottom: 80px;*/
 }
 
 ::-webkit-scrollbar {
@@ -104,13 +104,13 @@ a {
 }
 
 header {
-  width: 95%;
   max-width: 600px;
-  margin: 1em auto 0;
+  margin: 0 auto;
+  padding: 1em 1em 0;
   text-transform: uppercase;
 }
 nav {
-  padding: 1em 0 2em;
+  padding: 1em 0 0em;
   justify-content: space-between;
 }
 nav a.active {
@@ -123,23 +123,34 @@ footer {
 }
 footer .link {
   height: 20px;
-  padding: 0.33em;
+  padding: 0.4em;
 }
 footer .link .icon {
   height: 100%;
 }
 
-#Home {
+@media screen and (max-width: 480px) {
+  nav {
+    font-size: 0.66em;
+    /*justify-content: space-around;*/
+  }
+}
 
+
+#Home {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  min-height: 500px;
 }
 #Home .img-cont.hero,
 #Home #bio {
-  width: 95%;
-  max-width: 600px;
-  margin: 0 auto;
+  display: inline-table;
 }
 #Home .img-cont.hero {
+  width: 300px;
   padding-bottom: 1em;
+  vertical-align: top;
 }
 #Home .img-cont.hero img {
   width: 100%;
@@ -147,6 +158,29 @@ footer .link .icon {
 #Home #bio {
   letter-spacing: 0.1em;
   line-height: 2em;
+  text-align: left;
+  max-width: 400px;
+  padding-left: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  #Home {
+    width: 100%;
+    padding: 40px 0;
+  }
+  #Home .img-cont.hero,
+  #Home #bio {
+    display: block;
+    width: 95%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #Home .img-cont.hero {
+    padding-bottom: 1em;
+  }
+  #Home #bio {
+    padding: 0 0 40px;
+  }
 }
 
 

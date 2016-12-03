@@ -5,10 +5,10 @@ class Home extends Component {
     const content = this.props.route.content;
     return(
       <div id="Home">
-        <span className="img-cont block hero">
+        <span className="img-cont hero">
           <img src={content.hero_url} />
         </span>
-        <span id="bio" className="block">
+        <span id="bio">
           <p dangerouslySetInnerHTML={
               {__html : content.bio}
              }></p>

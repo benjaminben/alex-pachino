@@ -194,6 +194,7 @@ footer .link .icon {
 }
 #Solo .embed iframe {
   width: 100%;
+  background-image: url('/assets/solo-pattern.jpg');
 }
 #Solo .embed.video {
   width: 90vw;

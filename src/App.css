@@ -13,6 +13,10 @@ body {
   /*padding-bottom: 80px;*/
 }
 
+iframe {
+  background-image: url('/assets/solo-pattern.jpg');
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -81,6 +85,9 @@ a {
   flex-flow: row;
 }
 
+.v-top {
+  vertical-align: top;
+}
 .v-middle {
   vertical-align: middle;
 }
@@ -88,8 +95,14 @@ a {
   vertical-align: bottom;
 }
 
+.text-left {
+  text-align: left;
+}
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 
 .pointer {
@@ -184,6 +197,42 @@ footer .link .icon {
 }
 
 
+#Credits {
+  padding: 40px 0;
+}
+#Credits .categories {
+  max-width: 800px;
+}
+#Credits .category {
+  vertical-align: top;
+  padding: 0 25px 30px;
+  text-align: left;
+  max-width: 350px;
+}
+#Credits .category h1 {
+  font-size: 1.33em;
+  padding-bottom: 0.66em;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#Credits .category ul {
+  padding: 0; margin: 0;
+  list-style-type: none;
+}
+#Credits .category .name,
+#Credits .category .embed {
+  padding-bottom: 1em;
+}
+#Credits .category .name {
+  letter-spacing: 0.066em;
+}
+#Credits .category .name:before {
+  content: '- ';
+  text-indent: 5px;
+}
+
+
 #Solo {
   padding: 20px 0 40px;
 }
@@ -194,7 +243,6 @@ footer .link .icon {
 }
 #Solo .embed iframe {
   width: 100%;
-  background-image: url('/assets/solo-pattern.jpg');
 }
 #Solo .embed.video {
   width: 90vw;

@@ -207,13 +207,13 @@ footer .link .icon {
 }
 
 #Gear {
-  padding-top: 40px;
+  padding: 40px 0;
   max-width: 800px;
   margin: 0 auto;
 }
 #Gear .category {
-  min-height: 250px;
-  margin-bottom: 40px;
+  min-height: 240px;
+  padding-bottom: 40px;
 }
 #Gear .category h1 {
   font-size: 2.66em;
@@ -227,8 +227,8 @@ footer .link .icon {
 }
 #Gear .img-cont {
   display: inline-block;
-  width: 250px;
-  height: 250px;
+  width: 240px;
+  height: 240px;
   float: right;
   background-size: cover;
   background-position: center center;
@@ -243,6 +243,8 @@ footer .link .icon {
   #Gear .category {
     display: table;
     width: 100%;
+    margin-bottom: 40px;
+    padding-bottom: 0px;
   }
   #Gear .category .text-cont {
     display: table-cell;
@@ -268,6 +270,7 @@ footer .link .icon {
   #Gear .text-cont .group {
     width: 90%;
     margin: 0 auto;
+    max-width: 500px;
   }
 }
 

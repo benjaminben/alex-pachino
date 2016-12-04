@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Media extends Component {
   render() {
     return(
-      <div>Media</div>
+      <div id="Media" className="text-center">Media</div>
     )
   }
 }

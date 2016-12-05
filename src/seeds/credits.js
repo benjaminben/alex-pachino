@@ -51,11 +51,11 @@ const view = {
         items: [
           {
             name: 'Example single',
-            embed: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/vHcru0gPxZ4" frameborder="0" allowfullscreen></iframe>',
+            embed: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/vHcru0gPxZ4?autoplay=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>',
           },
           {
             name: 'Example single',
-            embed: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/XOyc3gyL5GA" frameborder="0" allowfullscreen></iframe>',
+            embed: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/XOyc3gyL5GA?autoplay=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>',
           }
         ],
       },

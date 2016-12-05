@@ -286,18 +286,19 @@ footer .link .icon {
 }
 #Media .photo {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 #Media .photo .hover-cover {
   position: absolute;
   opacity: 0;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.5);
   color: white;
 }
 #Media .photo .hover-cover .desc {
   margin: auto;
+  font-size: 0.8em;
 }
 #Media .photo:hover .hover-cover {
   opacity: 1;
@@ -308,8 +309,8 @@ footer .link .icon {
   margin: 0 auto;
   width: 90vw;
   height: 50.625vw;
-  max-width: 800px;
-  max-height: 450px;
+  max-width: 700px;
+  max-height: 393.75px;
 }
 
 #Media .overview {
@@ -327,6 +328,18 @@ footer .link .icon {
   position: relative;
   top: 50%;
   transform: translate(0,-50%);
+}
+
+@media screen and (max-width: 600px) {
+  #Media .embed {
+    margin: 0.5em 1em;
+  }
+  #Media .photo {
+    width: 90% !important;
+  }
+  #Media .photo img {
+    width: 100% !important;
+  }
 }
 
 
@@ -350,6 +363,15 @@ footer .link .icon {
 #Solo .embed.video iframe {
   width: 100%!important;
   height: 100%!important;
+}
+
+@media screen and (max-width: 600px) {
+  #Solo {
+    padding-bottom: 60px;
+  }
+  #Solo .embed {
+    padding: 0.5em 1em;
+  }
 }
 
 #Gear {
@@ -406,7 +428,7 @@ footer .link .icon {
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background-color: rgba(255,255,255,0.66);
+    background-color: rgba(255,255,255,0.75);
   }
   #Gear .category h1 {
     text-align: center;

@@ -5,7 +5,7 @@ const view = {
   content : {
     categories : [
       {
-        title: 'Production Work',
+        title: 'Production',
         items: [
           {
             name: 'Example Album',
@@ -22,7 +22,7 @@ const view = {
         ],
       },
       {
-        title: 'Artists Performed / Toured With',
+        title: 'Touring',
         items: [
           {
             name: 'Artist (2015)',
@@ -47,7 +47,7 @@ const view = {
         ],
       },
       {
-        title: 'Studio Guitar Work',
+        title: 'Studio',
         items: [
           {
             name: 'Example single',

@@ -3,21 +3,25 @@ import {Link} from 'react-router';
 
 class Nav extends Component {
   render() {
+    const keys = Object.keys(this.props.views);
+
     return(
-      <nav className="flex">
+      <nav className="table text-center">
         {
-          Object.keys(this.props.views).map((p, i) => {
+          keys.map((p, i) => {
             const page = this.props.views[p];
             return(
               <Link key={i} to={page.path}
-                    className={
+                    className={"table-cell v-middle text-center"}>
+                <span className={                      (
                       this.props.path === page.path
                       ?
                       "active"
                       :
                       ""
-                    }>
-                {page.name}
+                      )}>
+                  {page.name}
+                </span>
               </Link>
             )
           })

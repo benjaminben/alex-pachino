@@ -9,7 +9,7 @@ class Gear extends Component {
         {
           content.categories.map((c,i) => {
             return(
-              <div className="category relative">
+              <div className="category relative" key={i}>
                 <span className="img-cont"
                       style={{
                         backgroundImage : `url(${c.img_url})`,
@@ -17,9 +17,9 @@ class Gear extends Component {
                 <span className="text-cont relative">
                   <h1>{c.title}</h1>
                   {
-                    c.groups.map((g,i) => {
+                    c.groups.map((g,index) => {
                       return(
-                        <span className="block group">
+                        <span className="block group" key={index}>
                           <h2 className="inline">{g.name}: </h2>
                           <p className="inline" dangerouslySetInnerHTML={{__html : g.text}}></p>
                         </span>

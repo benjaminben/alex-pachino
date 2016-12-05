@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return(
       <header>
-        <img src="/assets/name.svg" />
+        <img src="/assets/name-bold.svg" />
         <Nav views={this.props.seed.views}
              path={this.props.path} />
       </header>

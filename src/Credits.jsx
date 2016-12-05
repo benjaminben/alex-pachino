@@ -21,9 +21,9 @@ class Credits extends Component {
                             {
                             item.link
                             ?
-                            <a className="name block" href={item.link}>{item.name}</a>
+                            <a className="name" href={item.link}>{item.name}</a>
                             :
-                            <span className="name block">{item.name}</span>
+                            <span className="name">{item.name}</span>
                             }
 
                             {

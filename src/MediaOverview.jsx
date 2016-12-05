@@ -14,10 +14,7 @@ class MediaPhotoOverview extends Component {
     return(
       <div className="fixed overview">
         <span className="escape absolute" onClick={() => this.props.hide()}></span>
-        <img className="absolute" src={this.props.item.img_url} />
-        <span className="info absolute white-txt">
-          <h2 className="gotham-book">{this.props.item.desc}</h2>
-        </span>
+        <img className="absolute" src={item.img_url} alt={item.desc} title={item.desc} />
       </div>
     )
   }

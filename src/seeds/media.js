@@ -27,7 +27,7 @@ const view = {
       {
         type  : 'video',
         desc  : 'bloobs bloobs bloobs',
-        embed : '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lrHJhKEtQEI?autoplay=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>',
+        embed : '<iframe src="https://player.vimeo.com/video/4755426" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
       },
       {
         type    : 'photo',

@@ -227,7 +227,9 @@ footer .link .icon {
   #Home .img-cont.hero,
   #Home #bio {
     display: block;
-    width: 95%;
+    width: 100%;
+    padding: 0 1em;
+    box-sizing: border-box;
     max-width: 600px;
     margin: 0 auto;
   }
@@ -235,7 +237,7 @@ footer .link .icon {
     padding-bottom: 1em;
   }
   #Home #bio {
-    padding: 0 0 40px;
+    padding: 0 1em 40px;
   }
 }
 
@@ -318,6 +320,7 @@ footer .link .icon {
 #Media .overview {
   top: 0; left: 0;
   width: 100%; height: 100%;
+  z-index: 1;
 }
 #Media .overview .escape {
   top: 0; left: 0;
@@ -415,6 +418,7 @@ footer .link .icon {
     width: 100%;
     margin-bottom: 40px;
     padding-bottom: 0px;
+    padding: 1em 0;
   }
   #Gear .category .text-cont {
     display: table-cell;

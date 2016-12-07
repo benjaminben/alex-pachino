@@ -8,8 +8,8 @@ const seed = {
   views : {
     home : home,
     credits : credits,
-    media : media,
     solo : solo,
+    media : media,
     gear : gear,
   },
 }

@@ -22,7 +22,20 @@ const view = {
         ],
       },
       {
-        title: 'Touring',
+        title: 'Studio Work',
+        items: [
+          {
+            name: 'Example single',
+            embed: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/vHcru0gPxZ4?autoplay=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>',
+          },
+          {
+            name: 'Example single',
+            embed: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/XOyc3gyL5GA?autoplay=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>',
+          }
+        ],
+      },
+      {
+        title: 'Performed/Toured With',
         items: [
           {
             name: 'Artist (2015)',
@@ -44,19 +57,6 @@ const view = {
             name: 'Artist (1984)',
             link: '//google.com',
           },
-        ],
-      },
-      {
-        title: 'Studio',
-        items: [
-          {
-            name: 'Example single',
-            embed: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/vHcru0gPxZ4?autoplay=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>',
-          },
-          {
-            name: 'Example single',
-            embed: '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/XOyc3gyL5GA?autoplay=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>',
-          }
         ],
       },
     ],

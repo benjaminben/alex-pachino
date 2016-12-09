@@ -10,7 +10,6 @@ body {
 .App {
   position: relative;
   min-height: 100%;
-  /*padding-bottom: 80px;*/
 }
 
 iframe {
@@ -29,7 +28,7 @@ p, h1, h2, h3, h4, h5 {
 }
 
 a {
-  color: black;
+  color: rgba(80,80,80,1);
   text-decoration: none;
 }
 
@@ -116,17 +115,24 @@ a {
   background-color: rgba(250,250,250,1);
 }
 
+.dg-txt {
+  color: rgba(80,80,80,1);
+}
+.lg-txt {
+  color: rgba(120,120,120,1);
+}
+
 header {
-  max-width: 600px;
+  max-width: 550px;
   margin: 0 auto;
   padding: 1.4em 1em 0;
   text-transform: uppercase;
 }
 nav {
-  padding: 1em 0 0em;
+  padding: 0.66em 0 0em;
   height: 1.66em;
   justify-content: space-around;
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 nav a {
@@ -145,11 +151,10 @@ nav a span:after {
   top: 1em; left: 0;
   width: 100%;
   height: 1px;
-  background: black;
+  background: rgba(80,80,80,1);
   opacity: 0;
   transform: translate(0, 0px);
   transition: all 0.33s ease;
-
 }
 nav a span:hover:after {
   opacity: 1;
@@ -166,7 +171,7 @@ nav a:before {
   top: 0.25em; left: 0;
   height: 1em;
   width: 1px;
-  background: rgba(50,50,50,1);
+  background: rgba(80,80,80,1);
 }
 nav a:nth-child(1):before {
   opacity: 0;
@@ -204,7 +209,7 @@ footer .link .icon {
   display: inline-table;
 }
 #Home .img-cont.hero {
-  width: 315px;
+  width: 330px;
   padding-bottom: 1em;
   vertical-align: top;
 }
@@ -398,11 +403,11 @@ footer .link .icon {
   padding-bottom: 60px;
 }
 #Gear .category h1 {
-  font-size: 2.66em;
+  font-size: 1.33em;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.2em;
-  padding: 0 0 0.33em;
+  padding: 0 0 1em;
 }
 #Gear .category h2 {
   font-weight: 500;
@@ -419,7 +424,6 @@ footer .link .icon {
 }
 #Gear .text-cont .group {
   padding-bottom: 1em;
-  color: rgba(50,50,50,1);
 }
 
 @media screen and (max-width: 768px) {

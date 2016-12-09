@@ -12,7 +12,7 @@ class Nav extends Component {
             const page = this.props.views[p];
             return(
               <Link key={i} to={page.path}
-                    className={"table-cell v-middle text-center"}>
+                    className={"table-cell dg-txt v-middle text-center"}>
                 <span className={                      (
                       this.props.path === page.path
                       ?

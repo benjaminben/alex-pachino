@@ -35,7 +35,7 @@ const view = {
         ],
       },
       {
-        title: 'Performed/Toured With',
+        title: 'Performed With',
         items: [
           {
             name: 'Artist (2015)',

@@ -13,7 +13,7 @@ class Credits extends Component {
               <span key={i} className="category inline-block">
                 <h1 className="cat-title">{c.title}</h1>
                 {
-                  <ul className="cat-list">
+                  <ul className="cat-list dg-txt">
                     {
                       c.items.map((item, index) => {
                         return(

@@ -19,7 +19,7 @@ class Gear extends Component {
                   {
                     c.groups.map((g,index) => {
                       return(
-                        <span className="block group" key={index}>
+                        <span className="block group dg-txt" key={index}>
                           <h2 className="inline">{g.name}: </h2>
                           <p className="inline" dangerouslySetInnerHTML={{__html : g.text}}></p>
                         </span>

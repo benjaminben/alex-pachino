@@ -10,7 +10,7 @@ class Home extends Component {
                alt={content.hero.img_alt}
                title={content.hero.img_tit} />
         </span>
-        <span id="bio">
+        <span id="bio" className="dg-txt">
           <p dangerouslySetInnerHTML={
               {__html : content.bio}
              }></p>

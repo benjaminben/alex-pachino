@@ -1,0 +1,73 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf820
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Italic;
+\f3\fnil\fcharset0 Menlo-BoldItalic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c100000;}
+\margl1440\margr1440\vieww8560\viewh13220\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \ul \ulc0 1) TO BEGIN EDITING:
+\i\b0 \ulnone \
+
+\i0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \cb3 \CocoaLigature0 OPEN TERMINAL:\
+\
+cd ~/Documents/WEBSITE\
+\
+INSIDE OF THIS FOLDER:\
+\
+atom .\
+npm start         
+\f2\i  
+\fs16 (<-- this will open website locally and show real time changes)
+\f1\i0\fs22 \
+\
+
+\f3\i\b \ul 2) EDIT SHIT\
+
+\f1\i0\b0 \ulnone \
+MAKE ALL YER CHANGES, SAVE IN ATOM, THEN:\
+\
+
+\f3\i\b \ul 3) PUBLISH NEW WORK
+\f1\i0\b0 \ulnone \
+\
+BACK IN TERMINAL:\
+\
+open new terminal tab (if not in cd \ul ~/Documents/WEBSITE\ulnone  enter that)\
+\
+npm run build\
+\
+THEN paste this: \
+\
+ssh alex@159.203.230.150 'rm -rf site/*; exit' && scp -r /Users/alexpachino/Documents/WEBSITE/build/* alex@159.203.230.150:site/\
+\
+
+\f2\i (will likely have to enter password twice)  \
+\
+\
+Close terminal - might ask "are you sure?" You just say, "yes dude."\
+
+\f1\i0 \
+DONE.\
+\
+_______________________\
+_______________________\
+\
+DONT TOUCH BUILD FOLDER!!\
+\
+Adjust bio text size: \
+ - cmnd P -> app.css \
+ - navigate to #home #bio (roughly 219)\
+ - Font-size, adjust em accordingly \
+\
+Change socials / email links: \
+ - cmnd P -> footer.jsx \
+ - links are there, don't be an idiot. \
+\
+How to "comment out" or "mute" certain code:\
+ - command -> / \
+\
+}

@@ -13,11 +13,11 @@ class MediaPhotoThumb extends Component {
   }
 
   sizeImg(img) {
-    var width = img.width / 10;
-    if( width <= 200 || width >= 400 ){
-      width = (width <= 200) ? 200 : 400;
-    }
-    this.setState({width : width, sized : true});
+    // var width = img.width / 10;
+    // if( width <= 200 || width >= 400 ){
+    //   width = (width <= 200) ? 200 : 400;
+    // }
+    this.setState({width : "220px", sized : true});
   }
 
   render() {

@@ -8,18 +8,16 @@ const view = {
       img_alt : 'Alex Pachino',
       img_tit : 'Alex Pachino, Wurlitzer',
     },
-    bio : `My name is Jonas
-           I'm carrying the wheel
-           Thanks for all you've shown us
-           But this is how we feel
-           Come sit next to me
-           Pour yourself some tea
-           Just like Grandma made
-           When we couldn't find sleep
-           Things were better then
-           Once but never again
-           We've all left the den
-           Let me tell you about it`,
+    bio : `My name is Alex Pachino and I’m a musician from Los Angeles.
+    If I were to define my musical capabilities, I’d say that they’d be
+    best used to write songs, produce records and perform live.
+    But surely more is possible.  All I know for certain is that I have
+    a deep love for art, music creation, collaboration and great songs.
+    My hope is that this website gives you a strong sense of who I am
+    and the kind of work I do.
+    <br><br>
+    -A
+    `,
   },
 }
 

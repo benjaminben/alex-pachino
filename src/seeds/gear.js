@@ -5,38 +5,43 @@ const view = {
   content : {
     categories : [
       {
-        img_url : 'http://www.tresorellehomedesigns.com/Guitar_Square_2_copy.jpg',
+        img_url : '/assets/guitar.jpg',
         title : 'Guitar',
         groups : [
           {
             name : 'Guitars',
-            text : 'Expensive shit / expensive shit / expensive shit',
+            text : 'Fender Stratocaster / Martin OMJM / Epiphone Masterbuilt Dreadnaught',
           },
           {
             name : 'Amps',
-            text : 'Expensive shit / expensive shit / cheap piece of shit',
+            text : 'Fender Hot Rod Deluxe (40w) / Fender Tweed Blues Jr. (15w) ',
           },
           {
             name : 'Pedals',
-            text : 'Pedal / Pedal / Pedal / Pedal / Pedal',
+            text : `Analogman Surface / Ibanez Ts808 (Keeley Mod) / Boss Blues Driver (Keeley Mod) /
+                    Keeley Katana / Ibanez CS9 / Way Huge Aqua Puss / Strymon El Capistan /
+                    Strymon Flint / Line 6 DL4 / Donlop Octavio / Dunlop Cry Baby Wah /
+                    Earnie Ball VP Jr. (2) / Boss Tu2 (2) `,
           },
         ],
       },
       {
-        img_url : 'http://www.ew.com/sites/default/files/styles/tout_image_gallery_612/public/i/2014/07/09/Weezer-08.jpg?itok=q992V4Gb',
+        img_url : '/assets/Studio.jpg',
         title : 'Studio',
         groups : [
           {
-            name : 'Recording',
-            text : 'Macbook Pro 15" / Duet / etc / etc / etc',
+            name : 'System',
+            text : `MacBook Pro / Apogee Duet / KRK Rokit Monitors (white) /
+                    ProTools 12 / Logic X / Ableton 9 /
+                    Plethora of wonderful plugins`,
           },
           {
             name : 'Mics',
-            text : 'Crazy mic / Cheap mic / cool mic',
+            text : `AKG 414 / Senhieser 421 / Shure SM57`,
           },
           {
             name : 'Instruments',
-            text : 'Wurlitzer / digeridoo / kazoo / penis / etc.',
+            text : `Wurlitzer 200a / OP-1 Synthesizer / PO-12 Drum Machine`,
           },
         ],
       }
